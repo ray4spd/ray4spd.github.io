@@ -12,13 +12,20 @@
     "website",
     "tech",
     "coding",
-    "dev"
+    "dev",
+    "robotics",
+    "software",
+    "software developer",
+    "software engineer",
+    "rashed alrashed",
+    "rashed",
+    "alrashed"
   ],
   "author": "Ryan Fitzgerald",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
