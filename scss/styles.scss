@@ -652,6 +652,15 @@ footer {
 
 .project-image {
     float: left;
+    height: 300px;
+}
+
+.project-image-content {
+    height: 300px;
+    width: auto;
+    max-width: 300px;
+    object-fit: cover;
+    display: block;
 }
 
 .project-info {
