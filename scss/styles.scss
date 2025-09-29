@@ -494,7 +494,9 @@ footer {
         background: $base-color;
         z-index: 0;
     }
-
+    li{
+        padding-bottom: 10px;
+    }
     &:after {
         position: absolute;
         content: '';
