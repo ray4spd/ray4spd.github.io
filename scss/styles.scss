@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #654bd6;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #2F1893;
+$background-alt: #1b0f54;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #000000;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #ffffff;
+$text: #ffffff;
 
 /*
     ---------------------
@@ -168,7 +168,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: #fff;
         padding: 10px;
 
         &:hover {
@@ -179,7 +179,7 @@ header {
         }
 
         &:focus {
-            color: $base-color;
+            color: #fff;
             text-decoration: none;
         }
     }
@@ -237,6 +237,7 @@ header {
 
 footer {
     padding: 50px 0;
+    background: $background;
 }
 
 .copyright {
@@ -448,6 +449,7 @@ footer {
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
+    background: $background;
 
     h2 {
         color: $heading;
@@ -507,8 +509,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: $background;
+    border: 1px solid $border;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -524,8 +526,11 @@ footer {
     h4 {
         font-size: 1.2em;
         font-weight: 300;
-        color: #7e8890;
+        color: $heading;
         margin: 0 0 15px 0;
+    }
+    li{
+        color: $heading;
     }
 
     p {
@@ -567,7 +572,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: #fff;
 }
 
 /*
@@ -577,6 +582,7 @@ footer {
 */
 
 #education {
+    background: $background;
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -593,6 +599,7 @@ footer {
     padding: 15px;
     border: 1px solid $border;
     text-align: left;
+    background: $background-alt;
 
     h3 {
         font-weight: 500;
@@ -646,7 +653,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: $background;
     border-radius: 4px;
 }
 
@@ -706,6 +713,7 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
+    background: $background;
 
     h2 {
         color: $heading;
